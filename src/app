@@ -1,0 +1,33 @@
+import './App.css'
+import About from './Components/About'
+import Header from './Components/Header'
+import Projects from './Components/Projects'
+import Testi from './Components/Testi'
+import Contact from './Components/Contact'
+import Footer from './Components/Footer'
+import { ToastContainer } from 'react-toastify';
+// import { motion } from "motion/react"
+// import { motion } from "framer-motion";
+import 'react-toastify/dist/ReactToastify.css';
+
+
+// import Navbar from './Components/Navbar'
+
+function App() {
+
+  return (
+    <div className='w-full overflow-hidden'>
+
+      {/* <Navbar/> */}
+      <ToastContainer />
+      <Header />
+      <About/>
+      <Projects/>
+      <Testi/>
+      <Contact />
+      <Footer />
+    </div>
+  )
+}
+
+export default App
