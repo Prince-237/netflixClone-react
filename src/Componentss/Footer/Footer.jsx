@@ -1,8 +1,17 @@
 import React from 'react'
 import './Footer.css'
-import { FaXTwitter, FaYoutube } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { FaSquareFacebook } from "react-icons/fa6";
+// import { FaXTwitter, FaYoutube } from "react-icons/fa6";
+// import { FaLinkedin } from "react-icons/fa";
+// import { FaSquareFacebook } from "react-icons/fa6";
+
+import {
+  FaSquareFacebook,
+  FaXTwitter,
+  FaLinkedin,
+  FaYoutube,
+} from "react-icons/fa6";
+
+
 
 
 
